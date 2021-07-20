@@ -11,5 +11,5 @@ Model: I added 2 linear layers in front of Embedding layer as follows:
 
 ### Conclusion
 
-This implementation tells us a way to generate task specific word embedding for any task. The generated embeddings should form clusters as words shares similar contextual properties. However due to very less set of words, here we don't see much of clustering. I have also generated plots of embeddings by reducing their dimension via PCA / TSNE.
+This implementation tells us a way to generate task specific word embedding for any task. The generated embeddings should form clusters as words shares similar contextual properties. In the notebook we can see that model is conversing properly, however due to very less set of words, here we don't see much of clustering. I have also generated plots of embeddings by reducing their dimension via PCA / TSNE.
 
